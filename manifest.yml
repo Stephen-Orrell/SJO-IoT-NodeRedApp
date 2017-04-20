@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: SJO-IoT-NodeRedApp
+  host: SJO-IoT-NodeRedApp
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-o9
+  - SJO-IoT-NodeRedApp-cloudantNoSQLDB
+  - Twilio-l8
