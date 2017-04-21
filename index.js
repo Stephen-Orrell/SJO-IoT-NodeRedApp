@@ -20,6 +20,7 @@ var util = require("util");
 var path = require("path");
 
 
+util.log("Updated to new Toolchain!");
 util.log("Starting Node-RED on Bluemix bootstrap");
 util.log("Loading bluemix-settings.js");
 var settings = require("./bluemix-settings.js");
